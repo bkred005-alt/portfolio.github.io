@@ -2,23 +2,35 @@
 <html>
 <head>
     <title>Engineering Portfolio</title>
+
     <style>
         body {
-            font-family: Times New Roman;
+            font-family: "Times New Roman", serif;
             margin: 40px;
-            background-color: #e5e5f7;
-            opacity: 0.2;
-            background-image:  linear-gradient(#7b81fb 1.4000000000000001px, transparent 1.4000000000000001px), linear-gradient(to right, #7b81fb 1.4000000000000001px, #e5e5f7 1.4000000000000001px);
-            background-size: 28px 28px;
+
+            /* Soft background color */
+            background-color: #f7f8fc;
+
+            /* Subtle grid */
+            background-image: 
+                linear-gradient(rgba(123, 129, 251, 0.12) 1px, transparent 1px),
+                linear-gradient(to right, rgba(123, 129, 251, 0.12) 1px, transparent 1px);
+
+            background-size: 40px 40px;
         }
+
         h1 {
             color: #333;
         }
+
         .project {
             background: white;
             padding: 15px;
             margin: 15px 0;
             border-radius: 8px;
+
+            /* slight elevation so it sits above grid */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
     </style>
 </head>
